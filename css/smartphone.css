@@ -1,0 +1,166 @@
+@media (max-width:641px) {
+  /*  HERO SMART  */
+  .navbar-menu {
+    display: none !important;
+  }
+  .hamburger {
+    width: 50px;
+    height: 50px;
+    display: block !important;
+  }
+  .hero-section {
+    height: 950px;
+    max-height: 1000px;
+  }
+  .student-image {
+    bottom: -28vw;
+    right: -20vw;
+    width: 85%;
+  }
+  .hero-article h2 {
+    font-size: 2.25rem;
+  }
+  .hero-card h2 {
+    font-size: 1.875rem;
+    padding: 0.3rem;
+    line-height: 2.313rem;
+  }
+  .hero-card p {
+    font-size: 0.875rem;
+    padding: 0.2rem;
+    line-height: 1.094rem;
+  }
+  .card-1 {
+    width: 182px;
+    height: 75px;
+    top: 25vw;
+    left: 0;
+  }
+  .card-1-back {
+    width: 190px;
+    height: 80px;
+    top: 25vw;
+    left: 0;
+  }
+  .card-2 {
+    height: 80px;
+    width: 172px;
+    top: 60vw;
+    left: 0;
+  }
+  .card-2-back {
+    width: 175px;
+    height: 90px;
+    top: 60vw;
+    left: 0;
+  }
+
+  /*  TEST SMART  */
+  .testimonials-section {
+    height: 980px;
+  }
+  .testimonials-container {
+    height: 780px;
+  }
+  .t-container-content h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .testimonials-cards {
+    width: 100%;
+    max-width: 500px;
+  }
+  .testimonials-card-header-1 {
+    height: 102px;
+  }
+  .horizontal-line {
+    height: 100%;
+    left:51px;
+  }
+  .t-card-content h3,
+  .t-card-content p {
+    margin: 0.685rem;
+  }
+  .firststudent,
+  .secondstudent {
+    width: 100px;
+    height: 100px;
+  }
+  .testimonials-card-1 {
+    height: 199px;
+    top: 5vw;
+  }
+  .testimonials-card-2 {
+    bottom: 5vw;
+    height: 172px;
+  }
+  /*  COURSES SMART  */
+  .courses-container {
+    width: 100%;
+  }
+  .courses-container h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .course-card-content h3{
+    width: 85%;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  /*  APP SMART  */
+  .app-container {
+    text-align: center;
+    width: 90%;
+    height: 321px;
+    max-width: 350px;
+    gap: 0;
+  }
+  .app-container-header h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .app-cards {
+    height: 194px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-card {
+    width: 88.57%;
+    height: 84px;
+    cursor: pointer;
+  }
+  /*  FOOTER SMART  */
+  footer {
+    height: 883px;
+  }
+  .footer-p {
+    font-size: 0.875rem;
+    width: 80%;
+    margin: 1rem auto;
+    line-height: 1.75rem;
+  }
+  .footer-container {
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-quick-links,
+  .footer-course,
+  .footer-contact-us {
+    margin-bottom: 6.28vw;
+  }
+  .input{
+    width: 70vw;
+  }
+  .input-2 {
+    left: 23vw;
+    top: 3rem;
+    width: 135px;
+    height: 34px;
+    cursor: pointer;
+  }
+}
